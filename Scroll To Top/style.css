@@ -1,0 +1,22 @@
+body {
+    height: 5000px;
+}
+
+.up {
+    position: fixed;
+    background-color: deepskyblue;
+    color: white;
+    bottom: 10px;
+    right: -50px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.up.show {
+    right: 10px;
+}

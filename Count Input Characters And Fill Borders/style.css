@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+div {
+    width: 300px;
+    margin: 20px auto;
+}
+
+input {
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid cornflowerblue;
+    background-color: aliceblue;
+}
+
+input:focus {
+    outline: none;
+}
+
+.progress {
+    background-color: #f44336;
+    height: 2px;
+    width: 0;
+    display: block;
+    top: -2px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.count {
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.zero {
+    font-size: 10px;
+    color: red;
+}
+
+.one {
+    font-size: 15px;
+    color: rgb(0, 13, 255);
+}
+
+.two {
+    font-size: 20px;
+    color: rgb(255, 174, 0);
+}
+
+.three {
+    font-size: 25px;
+    color: rgb(34, 234, 30);
+}
